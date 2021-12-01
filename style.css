@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+}
+
+.container .phone{
+    width: 400px;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.footer{
+    width: 400px;
+    position: fixed;
+    bottom: 0;    
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+    align-items: center;
+}
+.footer a{
+    color: #111;
+    font-size: 1.2rem;
+    margin: 0 15px;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}   
+
+
+/* //////////////////header//////////////////// */
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 13px;
+}
+
+.header .left i{
+    margin-right: 5px;
+}
+
+.header .left .page-id{
+    font-weight: bolder;
+}
+
+.header .right a{
+    padding: 0 2px;
+    color: #111;
+}
+
+
+/* /////////////////////////////info///////////////////////////// */
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.info .profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.info .details{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.info .details .detail{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.title{
+    padding: 10px 15px;
+}
+
+.bio span{
+    display: block;
+}
+
+.pv{
+    padding: 2px 13px;
+}
