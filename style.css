@@ -95,6 +95,10 @@ body{
    
    
 }
+.hilight-child section{
+    margin: 5px;
+   font-size: 17px;
+}
 .hilight-child div{
     padding: 20px;
     width: 10px;
@@ -111,7 +115,7 @@ body{
    
     display: flex;
     align-items:center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 5px;
 }
 .post{
