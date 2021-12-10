@@ -66,6 +66,69 @@ body{
 }
 
 
+
+/* edit profile */
+.edit{
+    margin: 5px;
+    /* background-color: rgb(32, 135, 167); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.edit section{
+    width: 90%;
+    margin: 15px;
+    /* background-color: blueviolet; */
+    display: flex;
+    padding: 2px;
+ padding-left: 130px;
+ border: gray solid 1px;
+ border-radius: 4px;
+}
+.hilight{
+    margin: 20px;
+    display: flex;
+  justify-content: flex-start;
+    gap: 30px;
+   
+   
+}
+.hilight-child div{
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: solid #111 0.5px;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+
+.igtv{
+   
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.post{
+    /* background-color: blue; */
+    margin: 10px;
+  
+   height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.post img{
+    width: 120px;
+    height: 80px;
+}
+
 /* /////////////////////////////info///////////////////////////// */
 
 
